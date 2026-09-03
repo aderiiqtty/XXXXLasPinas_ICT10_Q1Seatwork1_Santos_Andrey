@@ -1,10 +1,10 @@
 studname = "Ching" #string
 studage = 14 #integer
-stud_height = 170 #integer
-stud_country_to_visit = ["South Korea, Switzerland, Maldives"] #list
+stud_height = 170.0 #float
+stud_country_to_visit = ["South Korea", "Switzerland", "Maldives"] #list
 stud_new = False #boolean
 stud_info = {"color" :"black and purple",
-            "car_brand": "Porche",
+            "car_brand": "Porsche",
             "shoe_size" :"10",
             "best_friend" :"Youngeun"
             } #dictionary
@@ -14,7 +14,7 @@ stud_favefruits = {
     "grapes",
     "rambutan",
     "mango"
-} #list
+} #set
 days_of_week = (
     "Monday",
     "Tuesday",
@@ -23,7 +23,7 @@ days_of_week = (
     "Friday",
     "Saturday",
     "Sunday"
-) #list
+) #tuple
 
 print("name:", studname)
 print("age:", studage)
